@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Имя"
+            android:id="@+id/buttonNameForBioritm"
+            android:background="@drawable/draw"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="физический"
+            android:id="@+id/textView"
+            android:textColor="#0000ff"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFiz"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="эмоциональный"
+            android:id="@+id/textView2"
+            android:textColor="#ff0000"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewAmo"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="интеллектуальный"
+            android:id="@+id/textView3"
+            android:textColor="#00ff00"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewInt"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28.12.1999"
+            android:id="@+id/buttonDateForCalculate"
+            android:background="@drawable/draw"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-10"
+            android:id="@+id/buttonMinus10"
+            android:background="@drawable/draw"
+            android:layout_marginLeft="100dp"
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            android:id="@+id/buttonMinus1"
+            android:background="@drawable/draw"
+            android:layout_gravity="right"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtonRevert"
+            android:background="@drawable/draw"
+            android:src="@android:drawable/ic_menu_revert"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:id="@+id/buttonPlus1"
+            android:background="@drawable/draw"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+10"
+            android:id="@+id/buttonPlus10"
+            android:background="@drawable/draw"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/graph"
+        android:layout_marginLeft="8dp"/>
+
+</LinearLayout>

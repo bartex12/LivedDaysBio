@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rect">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Введите имя"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:hint="Новое имя"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:maxLength="18">
+
+                <requestFocus>
+                </requestFocus>
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Введите дату рождения"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Число"
+                        />
+
+                    <EditText
+                        android:id="@+id/etDay"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:width="80dp"
+                        android:ems="10"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:text="19"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Месяц"/>
+
+                    <EditText
+                        android:id="@+id/etMonth"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|right"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:width="80dp"
+                        android:ems="10"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:text="7"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Год"/>
+
+                    <EditText
+                        android:id="@+id/etYear"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:width="120dp"
+                        android:ems="10"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:text="1980"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="20dp"
+                android:text="clear"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:visibility="invisible"/>
+
+            <ImageButton
+                android:id="@+id/buttonDateDialog1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|left"
+                android:src="@drawable/ccc"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Отмена"
+            android:id="@+id/buttonCancel"
+            android:background="@drawable/draw"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:background="@drawable/draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Принять"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

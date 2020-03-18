@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JubileeDatesBioritm.iml" filepath="$PROJECT_DIR$/JubileeDatesBioritm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jubelee_dialog/jubelee_dialog.iml" filepath="$PROJECT_DIR$/jubelee_dialog/jubelee_dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jubelee_dialog_singllist/jubelee_dialog_singllist.iml" filepath="$PROJECT_DIR$/jubelee_dialog_singllist/jubelee_dialog_singllist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen_shot/screen_shot.iml" filepath="$PROJECT_DIR$/screen_shot/screen_shot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenshot/screenshot.iml" filepath="$PROJECT_DIR$/screenshot/screenshot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenshot_transmit/screenshot_transmit.iml" filepath="$PROJECT_DIR$/screenshot_transmit/screenshot_transmit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenshotonscreen/screenshotonscreen.iml" filepath="$PROJECT_DIR$/screenshotonscreen/screenshotonscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchexample/searchexample.iml" filepath="$PROJECT_DIR$/searchexample/searchexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdbsqlite/testdbsqlite.iml" filepath="$PROJECT_DIR$/testdbsqlite/testdbsqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/y/y.iml" filepath="$PROJECT_DIR$/y/y.iml" />
+    </modules>
+  </component>
+</project>

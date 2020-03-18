@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Прожито дней</string>
+    <string name="better_late">- - - - - - - - - -</string>
+    <string name="a_little">Маловато будет</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_find_dates">Найти совместные даты</string>
+    <string name="action_create_add">Добавить</string>
+    <string name="action_create_joint">Совместные даты</string>
+    <string name="action_find">Поиск</string>
+    <string name="action_new">New</string>
+    <string name="action_share">Отправить</string>
+    <string name="action_count_days">Прожито дней</string>
+    <string name="action_bioritm">Биоритмы</string>
+    <string name="action_table_days">Таблица дат</string>
+    <string name="action_delete">Удалить запись</string>
+    <string name="action_change">Изменить запись</string>
+    <string name="action_add_person">Добавить запись</string>
+    <string name="action_sorting">Сортировка</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="List">Количество точек на графике биоритмов</string>
+    <string name="Add">Добавление в начало или конец списка персональных данных </string>
+    <string name="cbSortOn">Выберите способ сортировки списка персональных данных </string>
+    <string name="cbSortOff">Без сортировки списка персональных данных\nВставка в конец списка </string>
+    <string name="ListSort">Выбор способа сортировки списка персональных данных</string>
+    <string name="search_hint">Введите имя</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_points">
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="pref_entries_add">
+        <item>В начало списка</item>
+        <item>В конец списка</item>
+    </string-array>
+
+    <string-array name="pref_entryValues_add">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_entry_sort">
+        <item>По имени вверх</item>
+        <item>По имени вниз</item>
+        <item>По дате вверх</item>
+        <item>По дате вниз</item>
+    </string-array>
+
+    <string-array name="pref_entryValues_sort">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="MenuMain">
+        <item>Личные даты</item>
+        <item>Совместные даты</item>
+        <item>Биоритмы</item>
+    </string-array>
+
+    <string-array name="MenuSubMain">
+        <item>Расчёт количества прожитых дней</item>
+        <item>Расчёт количества совместно прожитых дней</item>
+        <item>Расчёт биоритмов</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main_drower">MainDrowerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Прожито дней</string>
+    <string name="nav_header_subtitle">Расчёт числа прожитых/совместно прожитых дней и биоритмы</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Tools">Настройки</string>
+    <string name="Help">Справка</string>
+    <string name="main_menu">Прожито дней</string>
+    <string name="Send">Оценить</string>
+    <string name="Share">Поделиться</string>
+
+
+
+
+</resources>

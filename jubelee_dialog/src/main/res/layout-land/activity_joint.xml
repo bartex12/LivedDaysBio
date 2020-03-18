@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#e4fde4">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя"
+        android:id="@+id/buttonNamePerson1"
+        android:background="@drawable/draw"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя"
+        android:id="@+id/buttonNamePerson2"
+        android:background="@drawable/draw"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/forTwo_Days"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#0810f8"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Задайте количество"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="совместно прожитых дней"
+            android:id="@+id/textView15"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:focusable="true"
+            android:id="@+id/jointDays"
+            android:width="150dp"
+            android:hint="От 0 до 100000"
+            android:layout_weight="3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рассчитать"
+            android:id="@+id/jointFind"
+            android:background="@drawable/draw"
+            android:textSize="16dp"
+            android:layout_alignBaseline="@+id/editTextDays"
+            android:layout_alignBottom="@+id/editTextDays"
+            android:layout_toRightOf="@+id/editTextDays"
+            android:layout_toEndOf="@+id/editTextDays"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="22dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Это будет"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/better_late"
+            android:id="@+id/jointWillBe"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

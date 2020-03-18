@@ -1,0 +1,1 @@
+include ':jubelee_dialog', ':jubelee_dialog_singllist', ':searchexample', ':screenshot', ':screenshotonscreen', ':testdbsqlite', ':y', ':screen_shot', ':screenshot_transmit'

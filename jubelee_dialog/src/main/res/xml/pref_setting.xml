@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/pref_points"
+        android:entryValues="@array/pref_points"
+        android:key="List"
+        android:title="Количество точек"
+        android:summary="@string/List">
+    </ListPreference>
+
+    <CheckBoxPreference
+        android:key="cbSort"
+        android:title="Сортировка"
+        android:summaryOn="@string/cbSortOn"
+        android:summaryOff="@string/cbSortOff">
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:dependency="cbSort"
+        android:entries="@array/pref_entry_sort"
+        android:entryValues="@array/pref_entryValues_sort"
+        android:key="ListSort"
+        android:title="Способ сортировки"
+        android:summary="@string/ListSort">
+    </ListPreference>
+
+</PreferenceScreen>

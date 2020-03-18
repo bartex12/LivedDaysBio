@@ -1,0 +1,15 @@
+1 загрузочный файл PersonsListActivity
+2 //Читаем список с персональными данными из файла с именем FILENAME
+       readArrayList(csList, FILENAME);
+3		//заполняем Person  и PersonLab данными из строк списка csList, используя getDataFromString(String ss)
+ String name = TimeActivity.getDataFromString(csList.get(i))[0];		
+4 //если список пуст,заполняем первую строку списка строкой "Анжелина Джоли  4.6.1975  10000"
+        String s = "Анжелина Джоли  4.6.1975  10000";
+		//и сохраняем этот список из одной строки в файл
+            writeArrayList(csList);
+5 //получаем адаптер с данными из списка строк csList 
+        sara = doDataFromPersonLab(csList);
+	//присваиваем адаптер списку экрана и обновляем данные на экране
+	//Загружаем сохранённую позицию списка
+	//устанавливаем список в эту позицию
+6 

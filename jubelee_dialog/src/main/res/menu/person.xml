@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context=".TimeActivity">
+
+    <item android:id="@+id/action_add"
+          android:title="@string/action_create_add"
+          android:icon="@drawable/ic_action_new"
+          android:orderInCategory="1"
+          app:showAsAction="always" />
+
+    <item android:id="@+id/menu_search"
+          android:title="@string/action_find"
+          android:icon="@drawable/ic_action_find"
+          android:orderInCategory="10"
+          app:showAsAction="always"
+          app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_help_list_persons"
+          android:title="@string/Help"
+          android:orderInCategory="150"
+          app:showAsAction="never" />
+
+</menu>
